@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <title>"Resume"</title>
+<head>
+  <style>
+  table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  font-size: 18px;
+  font-family: arial;
+}
+table {
+  width: 90%;
+}
+
+  th {
+  background-color:rgb(52, 78, 108);
+  color: white;
+  font-size: 20px;
+  
+}
+.a{
+  background-color:rgb(182, 214, 210);
+
+}
+.c{
+  margin-left: 20%;
+
+}
+.d{
+  margin-left: 40%;
+}
+
+.f{
+  margin-left: 7%;
+}
+.e{
+  padding-top: 20px;
+  margin-left: 36%;
+  
+}
+img {
+  border-radius: 50%;
+}
+    </style>
+</head>
+  <body>
+    <div class=" a">   
+      <div class=" e">  
+  <img  src="Haiqa.jpg" alt="My Profile Picture" width="350" height="220" style="align-left"/>
+ 
+</div>
+<div class="d">
+<h1>HAIQA HUMAYUN</h1>
+<div class="f">
+  <u><h1>About</h1></u>
+
+</div>
+
+  <h3><p style="font-family:arial">Email:F2020105110@umt.edu.pk</p>
+  <p style="font-family:arial"> Nationality: Pakistani</p>
+  <p style="font-family:arial">Contact Number:
+    +924673975</p>
+  <p style="font-family:arial">Date of birth: 23 november 2002</p>
+<p style="font-family:arial" > 
+    Linkedin: <a href="https://www.linkedin.com/in/haiqa-humayun-36037824a" target="blank">Linkedin
+
+  </a>
+  </p ></h3>
+ 
+<u><h1>Social Accounts Links</h1></u>
+<div class="f">
+  <h3><a  href="https://www.facebook.com/haiqa.humayun?mibextid=ZbWKwL" target="blank"> 
+  Facebook
+</a></h3>
+<h3><a href="https://instagram.com/_haiqa_humayun?igshid=NmQ2ZmYxZjA="target=" blank">
+  Instagram
+ </a></h3>
+ <h3><a href="https://www.snapchat.com/add/haiqa_humayun?share_id=5xo9sJ_vVfw&locale=en-US"target="blank">
+  Snapchat
+ </a></h3>
+</div>
+</div> 
+<div class=" c">
+ <table >
+ <tr>
+  <th >Personal</th>
+  <th > Academaic</th>
+  <th >Experience</th>
+ </tr>
+ <tr>
+  <td><dl>
+    <ul>
+    <li>Hobbies:PLaying Cricket,Listening music</li>
+    <li>Language:English+ Urdu</li>
+    <li>I am third year IT Student,skilled in web development.</li>
+    <li>Favourite Food Biryani.</li>
+  </ul></td>
+  <td><ul>
+    <h2>EDUCATION</h2>
+    
+      <h2>Undergraduate Degree (2019-Present)</h2>
+      <li>Bs in Information Technology University of Management and Technology, Lahore</li>
+      <li>Semester :7</li>
+      <li>SGPA: 3.68</li>
+      <h2>Secondary Education (2018-2020)</h2>
+      <li>Punjab College For Women Intermediate: ICS</li>
+      </li>
+  </ul></td>
+  <td><ul >
+    
+      <u><h2>Research:</h2></u>
+      <li>Conduct research and analysis through statistics, surveys and interviews to gain understanding of the market.</li>
+      <li>Managed activity/resource planning, budgeting, and project risk</li>
+      <li>Pepared final reports/presentations Report writing</li>
+      <li>ICT Skills</li>
+      <li>Prepared SRS Document ( Automating Furniture shop)UML diagrams </li>
+      <li>Networking: Packet Tracer, Subnetting DHCP Configuaration</li>
+      <li>Work on html website</li>
+      <li>DBMS (My SQL Tool)</li>
+  
+  </ul></td>
+ </tr>
+ </table>
+</div>
+</div>
+ </body>
+ </html>
