@@ -1,0 +1,766 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+form {
+  width: 300px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 5px;
+  margin: 10px ;
+  cursor: pointer;
+}
+
+
+
+h1, h2 {
+  text-align: center;
+}
+
+#item-list, #cart {
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px;
+}
+
+#cart {
+  border: 5px solid white;
+  padding: 10px;
+}
+
+#checkout-btn {
+  display: block;
+  margin-top: 5px;
+}
+
+
+/* /////////////////////// */
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Style the container for inputs */
+.container {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* The message box is shown when the user clicks on the password field */
+#message {
+  display:none;
+  background: #f1f1f1;
+  color: #000;
+  position: relative;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#message p {
+  padding: 10px 35px;
+  font-size: 18px;
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+  color: green;
+}
+
+.valid:before {
+  position: relative;
+  left: -35px;
+  content: "✔";
+}
+
+/* Add a red text color and an "x" when the requirements are wrong */
+.invalid {
+  color: red;
+}
+
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "✖";
+}
+.df{
+  border-bottom: 1.5px solid rgb(235, 235, 159);
+  background-color: rgb(235, 235, 159);
+  line-height: 0.1rem;
+}
+.dd{
+  border-bottom: 1.5px solid white;
+  line-height: 0.1rem;
+}
+
+.ddd{
+  color: rgb(0, 102, 255);
+  line-height: 0.2rem;
+}
+
+a{
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.tdc{
+  background-color: yellow;
+}
+
+.center{
+  text-align: center;
+}
+
+.bord{
+  width: 300px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+.hd{
+  background-color: red;
+  height: 100vh;
+}
+
+@media screen and (min-width: 576px) {
+  .mq {
+          margin-left: 10px;
+  }
+}
+/* 
+///////////////////////////////////////// */
+button:hover{background-color:rgb(255, 0, 234);font-size:15px}
+/* //////////////////////////////
+scroll 
+/////////////////////////////////// */
+div.scroll-container {
+  background-color: black;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+
+/* slides set */
+/* /////////////////////////////////////////////////// */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  height: 50%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+/* /////////////////////////////////////// */
+
+.cen{
+text-align:center;
+font-size:30px;
+margin-left: 500px;
+}
+table {
+  border-collapse: collapse;
+margin-top: 7%;
+  border-spacing: 0;
+  width: 30%;
+  text-align :center;
+  border: 1px solid black;
+}
+
+th, td {
+  text-align: left;
+  padding: 3px;
+}
+
+tr:nth-child(even){background-color:darkred}
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 10%;
+    height: 2%;
+    padding: 10px;
+    background:black;
+    height: 150px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.position{
+    position: absolute;
+  /*   position: relative; */
+    top: 35px;
+    right: 0;
+    color: red;
+    background-color:black;
+  }
+  
+  a {
+    text-decoration: none;
+    color:black;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #fff;
+    box-shadow: 0px 1px 5px rgba(0, 100, 155, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: black;
+  }
+  
+  nav ul {
+    display: flex;
+    margin: 0 auto;
+  }
+  
+  nav ul li {
+    margin: 0 10px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    font-size: 20px;
+    text-decoration: underline;
+    color: green;
+  }
+.centered {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#000;
+  }
+      .mySlides 
+      {display:none;
+        border: 2px solid black ;
+     }
+     body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .column {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 20%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+    color:black;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+
+
+.www{
+  background-image: url("21.jpg");
+  height: 1000px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  border:3px solid black;
+}
+.centered {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+      .mySlides {display:none;
+     }
+     body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color:black;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: underline;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .columnn {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnn {
+    float: left;
+    width: 25%;
+    height: 30%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .columnn {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnn {
+      width: 100%;
+    }
+  }
+  /* ????????????????????????????????????????????????????
+  signup
+  ////////////////////////////////////////////// */
+  .bg{
+    background-image: url("15.jpg");
+    height: 800px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    border:3px solid black;
+  }
+  .center{
+   
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:whitesmoke;
+    text-align: center;
+    border:3px solid black;
+    
+   
+  }
+  /* ///////////////////////////////////////////////////////////////////
+               main
+  ///////////////////////////////////////////////////////////////////   */         
+  .abc{
+    background-image: url("16.jpg");
+    height: 550px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border:3px solid black;
+}
+  /* ///////////////////////////////////////////////////////////////////
+               menu
+  ///////////////////////////////////////////////////////////////////              */
+.bgmenu{
+    background-image: url("18.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+width: 100%;
+    border:3px solid black;
+}
+.rightside{
+    position: absolute;
+    top:30%;
+    margin-left: 20%;
+   
+    color:white;
+    /* text-align: left;    */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+}
+/* //////// */
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/* // */
+.hun{
+  background-color:aliceblue;
+  width: 99%;
+  /* height: 150px; */
+  box-sizing: 10px;
+
+}
+* {
+box-sizing: border-box;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+/* float: left; */
+width: 20%;
+padding: 10px;
+text-align: center;
+justify-content: center;
+margin-left: 120px;
+min-width: 250px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+/* /////////////////////////////////////////
+contact
+.......................................... */
+.qq{
+  background-image: url("19.jpg");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  border:3px solid black;
+}
+
+
+
+

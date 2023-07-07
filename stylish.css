@@ -1,0 +1,356 @@
+.centered {
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+    .mySlides {display:none;
+   }
+   body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+.www{
+  background-image: url("21.jpg");
+  height: 1000px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  border:3px solid black;
+}
+.centered {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+      .mySlides {display:none;
+     }
+     body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+  
+  .navbar {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color:black;
+    overflow: auto;
+  }
+  
+  .navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  
+  @media screen and (max-width: 1000px) {
+    .navbar a {
+      float: none;
+      display: block;
+    }
+  }
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-family: Arial;
+  }
+  
+  /* Center website */
+  .main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+  }
+  
+  .row {
+    margin: 8px -16px;
+  }
+  
+  /* Add padding BETWEEN each column */
+  .row,
+  .row > .columnn {
+    padding: 8px;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnn {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .columnn {
+      width: 50%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnn {
+      width: 100%;
+    }
+  }
+  /* ????????????????????????????????????????????????????
+  signup
+  ////////////////////////////////////////////// */
+  .bg{
+    background-image: url("15.jpg");
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px;
+    border:3px solid black;
+  }
+  .center{
+   
+    position: absolute;
+    top:56%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background-color:burlywood;
+    text-align: center;
+   
+  }
+  /* ///////////////////////////////////////////////////////////////////
+               menu
+  ///////////////////////////////////////////////////////////////////              */
+.bgmenu{
+    background-image: url("19.jpg");
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 70px;
+    border:3px solid black;
+}
+.rightside{
+    position: absolute;
+    top:30%;
+    margin-left: 20%;
+   
+    color:white;
+    /* text-align: left;    */
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+}
+/* //////// */
+.containerTab {
+  padding: 20px;
+  color: white;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+/* // */
+.hun{
+  background-color:aliceblue;
+  width: 99%;
+  /* height: 150px; */
+  box-sizing: 10px;
+
+}
+* {
+box-sizing: border-box;
+
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+/* float: left; */
+width: 20%;
+padding: 10px;
+text-align: center;
+justify-content: center;
+margin-left: 120px;
+min-width: 250px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+/* /////////////////////////////////////////
+contact
+.......................................... */
+.qq{
+  background-image: url("19.jpg");
+  height: 800px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  border:3px solid black;
+}
